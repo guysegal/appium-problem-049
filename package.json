@@ -1,0 +1,26 @@
+{
+  "name": "AppiumProblem",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "wdio ./wdio.conf.js",
+    "appium": "./node_modules/.bin/appium"
+  },
+  "dependencies": {
+    "react": "16.0.0-beta.5",
+    "react-native": "0.49.3"
+  },
+  "devDependencies": {
+    "appium": "1.6.5",
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "21.2.1",
+    "path": "^0.12.7",
+    "wdio-mocha-framework": "^0.5.11",
+    "webdriverio": "^4.8.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
